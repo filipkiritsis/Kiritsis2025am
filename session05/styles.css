@@ -1,0 +1,113 @@
+body {
+    background-color: #000;
+    background-image: url("images/moss04.jpg");
+    background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+    /* background-position-y: bottom;  */
+
+    margin: 0;
+    padding: 0;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    /* 200 – 800 */
+    font-style: normal;
+
+}
+
+/* id rule uses hashtag #, only one per page */
+#wrapper {
+    margin: 100px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 30px 50px;
+        /* background-image: url("images/moss03.jpg"); */
+}
+
+/* class rules use a period to make a rule about a class, use multiple times */
+.wow {
+    color: #f00;
+    font-weight: 900;
+    font-style: italic;
+}
+
+header h1 {
+
+    font-family: "Bitcount Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    /* 100-900 */
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 66px;
+}
+
+main p {
+
+    font-size: 18px;
+    line-height: 24px;
+}
+
+table, th, td, tr {
+margin: 0px;
+padding: 0px;
+
+}
+
+
+main table {
+border: 10px solid rgb(192, 192, 192);
+    background-color: rgb(255, 207, 74);
+
+}
+
+main table th {
+border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(155, 155, 155);
+        font-family: "Bitcount Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 33px;
+    padding:22px;
+
+}
+
+main table td {
+border: 5px solid rgb(77, 77, 77);
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.box {
+
+  border: 2px solid #333;
+  background-color: #ffffff;
+  padding: 12px;
+  margin: 16px 0;
+  border-radius: 8px;         
+}
+
+.box h2,
+.box h3 {
+  margin-top: 0;
+}
+
+.box:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.box-1 { border-color: #4a7c59; background-color: #eef7f0; } 
+.box-2 { border-color: #2a6f97; background-color: #eef6fb; }  
+.box-3 { border-color: #b5651d; background-color: #fff3e6; }  
+.box-4 { border-color: #6d597a; background-color: #f5eff7; } 
+
+.box img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  max-width: 100%;
+}
