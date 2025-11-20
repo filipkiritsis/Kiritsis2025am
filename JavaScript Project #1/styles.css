@@ -1,0 +1,16 @@
+#jar-container {
+  width: 800px;
+  height: 500px;
+  border: 2px solid #d70e0e;
+  margin: 0 auto;
+  position: relative;
+  background-color: #f5e557;
+}
+
+.doll {
+  position: absolute;
+  width: 120px;
+  cursor: grab;
+  user-select: none;
+  transform-origin: center center;
+}
