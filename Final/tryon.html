@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Try Them On</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Maiden+Orange&family=Metamorphous&family=Source+Serif+4&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="historic.html">Watch History</a></li>
+      <li><a href="tryon.html" aria-current="page">Try Them On</a></li>
+      <li><a href="p5.html">P5 Animation</a></li>
+    </ul>
+  </nav>
+
+  <div class="wrapper">
+    <header>
+      <h1>TRY THEM ON</h1>
+    </header>
+
+    <main>
+      <section>
+  <h2>Drag a Watch Onto the Arm</h2>
+  <p>Drag a watch from the bottom and drop it on the arm.</p>
+
+  <button id="reset-btn" type="button">Reset</button>
+
+  <div id="try-area">
+    <img id="arm" src="arm.png" alt="Arm">
+  </div>
+</section>
+
+
+      <section class="watch-bar">
+        <img class="watch-thumb" src="watch1.png" alt="Watch 1" draggable="true">
+        <img class="watch-thumb" src="watch2.png" alt="Watch 2" draggable="true">
+        <img class="watch-thumb" src="watch3.png" alt="Watch 3" draggable="true">
+      </section>
+    </main>
+  </div>
+
+  <script src="tryon.js"></script>
+  <footer>
+  <p>Filip Kiritsis</p>
+  <p>Sources: Wikipedia - Google Fonts.</p>
+</footer>
+</body>
+</html>
